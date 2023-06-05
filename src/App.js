@@ -1,11 +1,12 @@
-import React from 'react';
 import './App.css';
-import HomeScreen from "./HomeScreen"
+import HomeScreen from './components/HomeScreen/HomeScreen';
+// import ListeMovie from './components/ListeMovie/ListeMovie';
 
 function App() {
   return (
-    <div className="app">
-      <HomeScreen />
+    <div className="App">
+     <HomeScreen />
+     {/* <ListeMovie/> */}
     </div>
   );
 }
